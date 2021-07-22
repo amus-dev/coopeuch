@@ -1,6 +1,6 @@
 # CRUD Copeuch
 
-_Proyecto basado en un sistema CRUD para una entrevista técnica. Puedes revisar el sitio desplegado en producción [aquí](https://blockmaster-amusdev.netlify.app/)_
+_Proyecto basado en un sistema CRUD para una entrevista técnica. Puedes revisar el sitio desplegado en producción [aquí](https://copeuch.vercel.app//)_
 
 ## Comenzando 🚀
 
