@@ -1,0 +1,56 @@
+@import "../../assets/sass/style.scss";
+
+.formAdd {
+  display: flex;
+  height: 50px;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+  margin-top: 1rem;
+  &.open {
+    opacity: 1;
+  }
+  &__input {
+    border: 1px solid $black;
+    outline: 0;
+    border-radius: 0.25rem;
+    margin-right: 1rem;
+    padding: 0.375rem 0.75rem;
+    color: $black;
+    @include font-roboto-light;
+  }
+  .rdt {
+    input {
+      border: 1px solid $black;
+      margin-right: 1rem;
+      color: $black;
+      @include font-roboto-light;
+      height: 100%;
+    }
+  }
+  &__btn {
+    background-color: $blue;
+    color: $white;
+    border: none;
+    border-radius: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: background-color 0.5s ease-in-out;
+    @include font-roboto-light;
+    &:hover {
+      background-color: $ocean;
+    }
+  }
+  &__alert {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 1rem;
+    @include font-roboto-light;
+    transition: opacity 0.5s ease-in-out;
+    &.open {
+      opacity: 1;
+    }
+  }
+}

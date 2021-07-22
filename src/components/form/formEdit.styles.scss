@@ -1,0 +1,29 @@
+@import "../../assets/sass/style.scss";
+
+.boxForm {
+  &__title {
+    @include font-roboto-regular;
+  }
+  &__form {
+    &-input {
+      margin-top: 1rem;
+      @include font-roboto-regular;
+    }
+    &-btn {
+      background-color: transparent;
+      border: none;
+      background-color: $ocean;
+      color: $white;
+      @include font-roboto-regular;
+      font-size: 1rem;
+      transition: background-color 0.5s ease-in-out;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border-radius: 7px;
+      margin-top: 1rem;
+      &:hover {
+        background-color: $black;
+      }
+    }
+  }
+}

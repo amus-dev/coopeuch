@@ -1,0 +1,31 @@
+@import "../../assets/sass/style.scss";
+
+.header {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  flex-direction: column;
+  &__controls {
+    display: flex;
+    justify-content: space-between;
+    &-title {
+      @include font-roboto-bold;
+      font-size: 2rem;
+    }
+    &-btn {
+      background-color: transparent;
+      border: none;
+      background-color: $ocean;
+      color: $white;
+      @include font-roboto-regular;
+      font-size: 1rem;
+      transition: background-color 0.5s ease-in-out;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border-radius: 7px;
+      &:hover {
+        background-color: $black;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap");
+
+@mixin font-roboto-bold {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+
+@mixin font-roboto-regular {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+
+@mixin font-roboto-light {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+}
