@@ -27,7 +27,7 @@ npm run start || yarn start
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 - [React JS](https://es.reactjs.org/) - El framework web usado
-- [Redux](https://es.reactjs.org/) - El framework web usado
+- [Redux](https://es.redux.js.org/) - Metodología de React
 - [Redux Ducks](https://github.com/erikras/ducks-modular-redux) - Metodología de trabajo para Redux
 - [SASS](https://sass-lang.com/) - Framework CSS
 - [Bootstrap](https://react-bootstrap.github.io/) - Bootstrap
